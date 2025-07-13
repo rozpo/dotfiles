@@ -1,0 +1,5 @@
+[commit]
+	gpgsign = true
+[user]
+	email = rozpo.dev@gmail.com
+	name = Piotr Rozpończyk

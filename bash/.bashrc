@@ -1,3 +1,15 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+PS1='[\u@\h \W]\$ '
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
 alias ll="ls -lh"
 alias lla="ls -lha"
 
@@ -8,3 +20,5 @@ alias gl="git log"
 alias gp="git pull --rebase"
 alias gs="git status"
 
+alias dotfiles="cd $HOME/github/rozpo/dotfiles"
+alias retip="cd $HOME/github/rozpo/retip"
